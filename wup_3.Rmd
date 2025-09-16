@@ -45,6 +45,13 @@ The number of people sitting in the back row is the smallest number of people (3
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+When looking at the p value, which was about 0.000116,  I noticed that it is really small and it tells me that there is a statistical difference between the values. 
+
 ## Conclusions
 
 
