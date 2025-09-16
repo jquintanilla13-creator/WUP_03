@@ -37,6 +37,12 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The number of people sitting in the back row is the smallest number of people (36). In the middle row is  where most people are sitting (89). In the front row is where less people are sitting than the middle row but more than the back row (40). 
+
 ## Inferential Tests
 
 ## Conclusions
