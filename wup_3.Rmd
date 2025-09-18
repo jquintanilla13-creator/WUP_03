@@ -60,4 +60,4 @@ Looking at the 95% confidence level, We saw the confidence intervals of the Fron
 
 ## Conclusions
 
-
+What we learned in today's lesson when looking at numerical categorical data, there are different categories. Because of this, we used our helper file labeled "Numerical~Cat-1.rmd".The numerical results showed us the number of people sitting in the front, middle, and back lines, and we were able to see the number of people in each row, with the middle row having the highest number of people with 89 seats.There were Inferential results which provided us with the P-value and it was really small (0.000116). This p-Value said that the results are significantly different, and so we went ahead and plotted a 95% confidence level chart to be able to dive more into the results. We noticed that the Front-Back and the Middle-Back are significantly different, since 0 doesn't go through their confidence intervals. In contrast, for the Middle-Front seats, 0 goes through the confidence interval, and so indicating that there is no significant difference between them.
